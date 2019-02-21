@@ -10,6 +10,7 @@ import time
 profile = webdriver.FirefoxProfile('/root/.mozilla/firefox/9oz6e427.default')
 driver=webdriver.Firefox(profile)
 f1=open("numbers.txt","w")
+
 #Reading the CSV file and storing the object in "contents"
 with open('num.csv','r') as file:
     contents = csv.reader(file)
